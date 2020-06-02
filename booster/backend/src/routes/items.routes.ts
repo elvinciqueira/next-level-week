@@ -1,11 +1,11 @@
 import { Router } from 'express';
 
-import ListItemsController from '../controllers/ListItemsController';
+import ItemsController from '../controllers/ItemsController';
 
 const itemsRouter = Router();
 
-const listItemsController = new ListItemsController();
+const itemsController = new ItemsController();
 
-itemsRouter.get('/', listItemsController.index);
+itemsRouter.get('/', itemsController.index);
 
 export default itemsRouter;
