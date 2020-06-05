@@ -89,7 +89,7 @@ $ yarn knex:migrate
 $ yarn knex:seed
 
 # To finish, run the api service
-$ yarn dev
+$ yarn dev:server
 
 # Well done, project is started!
 ```
